@@ -31,6 +31,7 @@ html {
 }
 
 #nav {
+  display: inline-block;
 }
 
 #nav li {
@@ -43,6 +44,7 @@ html {
 }
 
 #nav > li > a {
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -79,6 +81,25 @@ html {
   width: 100%;
 }
 
+#nav .nav-arrow-down {
+  font-size: 14px;
+}
+
+#header .search-btn {
+  float: right;
+  padding: 0px 21px;
+}
+
+#header .search-btn:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+#header .search-icon {
+  color: white;
+  font-size: 20px;
+  line-height: 46px;
+}
 #slider {
 }
 
