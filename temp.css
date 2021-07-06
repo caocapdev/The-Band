@@ -42,19 +42,20 @@ html {
   display: block;
 }
 
-#nav > li > a {
-  text-transform: uppercase;
-}
-
 #nav li a {
+  color: #fff;
   text-decoration: none;
   line-height: 46px;
   padding: 0px 24px;
   display: inline-block;
 }
 
-#nav > li:hover > a,
-#nav .subnav li:hover {
+#nav > li > a {
+  text-transform: uppercase;
+}
+
+#nav .subnav li:hover,
+#nav > li:hover > a {
   background-color: #ccc;
   color: black;
 }
@@ -62,21 +63,21 @@ html {
 #nav .subnav {
   display: none;
   min-width: 160px;
-  background-color: white;
   position: absolute;
   top: 100%;
   left: 0;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav li {
+  width: 100%;
 }
 
 #nav .subnav a {
   color: black;
   padding: 0px 12px;
   line-height: 38px;
-}
-
-#nav .subnav li {
-  width: 100%;
 }
 
 #slider {
